@@ -20,8 +20,8 @@ references:
         month: 12
     title: Universal Declaration of Human Rights
     type: book
-subtitle: 'Subtitle'
-title: 'Title'
+subtitle: 'La Civilización Occidental'
+title: 'Title del Artículo'
 toc: true
 
 # LaTeX
@@ -86,7 +86,7 @@ subject: # document subject, included in ODT, PDF, docx, EPUB, and pptx metadata
 
 # Heading 1
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
+Todos los seres humanos are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
 
 ## Heading 2
 
