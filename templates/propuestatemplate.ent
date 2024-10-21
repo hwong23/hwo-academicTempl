@@ -1,8 +1,0 @@
-\@doanenote {1}
-macro:->A
-footnote/endnote
-\@endanenote 
-\@doanenote {2}
-macro:->Another
-footnote/endnote
-\@endanenote 
