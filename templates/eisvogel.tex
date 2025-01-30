@@ -408,6 +408,9 @@ $if(graphics)$
 \usepackage{float}
 \floatplacement{figure}{$if(float-placement-figure)$$float-placement-figure$$else$H$endif$}
 \makeatother
+
+%% change the default with of the images using \setkeys{Gin}{width=.8\linewidth}
+\setkeys{Gin}{width=1\linewidth}
 $endif$
 $if(svg)$
 \usepackage{svg}
@@ -966,9 +969,6 @@ $endif$
 %%
 %% end added
 %%
-
-%% change the default with of the images using \setkeys{Gin}{width=.8\linewidth}
-\setkeys{Gin}{width=1\linewidth}
 
 \begin{document}
 
