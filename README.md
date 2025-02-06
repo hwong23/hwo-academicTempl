@@ -1,6 +1,6 @@
-Propuesta de Certificación Operativa Plataforma de Software de la Plataforma Trii.co
-Rama actual: 6-triipruebas
+Propuesta de Servicios Banco de la Mujer (BMM)
+Rama actual: 7-propuestabmm
 
-# Propuesta (git:6-pruebastrii)
+# Propuesta (git:7-propuestabmm)
 (...)
 
