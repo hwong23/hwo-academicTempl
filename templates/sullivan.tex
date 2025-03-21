@@ -22,9 +22,9 @@
 	a4paper, % Paper size, use either a4paper or letterpaper
 	12pt, % Default font size, the template is designed to look good at 12pt so it's best not to change this
 	%unnumberedsections, % Uncomment for no section numbering
-]{CSSullivanBusinessReport}
+]{include/CSSullivanBusinessReport}
 
-\addbibresource{sample.bib} % BibLaTeX bibliography file
+\addbibresource{include/sample.bib} % BibLaTeX bibliography file
 
 %----------------------------------------------------------------------------------------
 %	REPORT INFORMATION
@@ -143,10 +143,9 @@ Donec in elit ac ante vestibulum rhoncus. Pellentesque ligula tortor, aliquet ma
 \subsection{Subsection Title} % Second level section
 
 In diam libero, vulputate quis accumsan non, auctor in ipsum. Praesent cursus velit eget lacus sodales porta. Proin quis risus ut velit euismod scelerisque ut sed neque. Cras sagittis, dolor ac ullamcorper auctor, tortor dui facilisis diam, at sagittis nisi ipsum a neque. Nullam vel mattis nisi. Ut interdum ut diam at ornare. Nulla ultrices elit justo, vitae tristique massa vulputate sit amet.
-\nonumsidenote{
-	$equipo$
-}
-Vestibulum erat felis, cursus vitae convallis ac, commodo eu nisi. Nulla facilisi. Mauris dignissim nisi felis, a mollis ex accumsan vel. Suspendisse bibendum vitae nibh in suscipit. Vestibulum et finibus eros. Nulla facilisi. Cras luctus aliquam finibus. In nec justo nec orci malesuada faucibus.
+
+\nonumsidenote{$equipo$
+	}Vestibulum erat felis, cursus vitae convallis ac, commodo eu nisi. Nulla facilisi. Mauris dignissim nisi felis, a mollis ex accumsan vel. Suspendisse bibendum vitae nibh in suscipit. Vestibulum et finibus eros. Nulla facilisi. Cras luctus aliquam finibus. In nec justo nec orci malesuada faucibus.
 
 \subsubsection{Subsubsection Title} % Third level section
 
@@ -253,12 +252,12 @@ This statement automatically references the table below using its label: Table \
 		\toprule
 		\textbf{Prospect} & \textbf{Industry} & \textbf{Revenue} \\
 		\midrule
-		Gerlach Inc & Business Development & \$3M\\
-		Doyle and Sons & Law & \$1M\\
-		Heathcote Group & Consulting & \$12M\\
-		Goyette Inc & Advertising & \$5M\\
-		Holzdeppe GmbH & Manufacturing & \$23M\\
-		Bienias AG & Accounting & \$2.5M\\
+		Gerlach Inc & Business Development & 3M\\
+		Doyle and Sons & Law & 1M\\
+		Heathcote Group & Consulting & 12M\\
+		Goyette Inc & Advertising & 5M\\
+		Holzdeppe GmbH & Manufacturing & 23M\\
+		Bienias AG & Accounting & 2.5M\\
 		\bottomrule
 	\end{tabular}
 	\label{tab:example}
@@ -272,12 +271,12 @@ This statement automatically references the table below using its label: Table \
 		\toprule
 		\textit{\#} & \textbf{Prospect} & \textbf{Industry} & \textbf{Revenue} & \textbf{Employees} \\
 		\midrule
-		\textit{1} & Gerlach Inc & Business Development & \$3M & 65\\
-		\textit{2} & Doyle and Sons & Law & \$1M & 15\\
-		\textit{3} & Heathcote Group & Consulting & \$12M & 250\\
-		\textit{4} & Goyette Inc & Advertising & \$5M & 100\\
-		\textit{5} & Holzdeppe GmbH & Manufacturing & \$23M & 75\\
-		\textit{6} & Bienias AG & Accounting & \$2.5M & 40\\
+		\textit{1} & Gerlach Inc & Business Development & 3M & 65\\
+		\textit{2} & Doyle and Sons & Law & 1M & 15\\
+		\textit{3} & Heathcote Group & Consulting & 12M & 250\\
+		\textit{4} & Goyette Inc & Advertising & 5M & 100\\
+		\textit{5} & Holzdeppe GmbH & Manufacturing & 23M & 75\\
+		\textit{6} & Bienias AG & Accounting & 2.5M & 40\\
 		\bottomrule
 	\end{tabular}
 \end{table*}
