@@ -29,7 +29,6 @@
 %----------------------------------------------------------------------------------------
 %	REPORT INFORMATION
 %----------------------------------------------------------------------------------------
-
 \reporttitle{$title$} % The report title to appear on the title page and page headers, do not create manual new lines here as this will carry over to page headers
 
 \reportsubtitle{A professional layout featuring a large margin\\ and examples of typical business report content} % Report subtitle, include new lines if needed
@@ -47,7 +46,6 @@
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
-
 \thispagestyle{empty} % Suppress headers and footers on this page
 
 \begin{fullwidth} % Use the whole page width
@@ -77,7 +75,6 @@
 %----------------------------------------------------------------------------------------
 %	DISCLAIMER/COPYRIGHT PAGE
 %----------------------------------------------------------------------------------------
-
 \thispagestyle{empty} % Suppress headers and footers on this page
 
 \begin{twothirdswidth} % Content in this environment to be at two-thirds of the whole page width
@@ -123,7 +120,6 @@
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
-
 \begin{twothirdswidth} % Content in this environment to be at two-thirds of the whole page width
 	\tableofcontents % Output the table of contents, automatically generated from the section commands used in the document
 \end{twothirdswidth}
@@ -133,10 +129,9 @@
 %----------------------------------------------------------------------------------------
 %	SECTIONS
 %----------------------------------------------------------------------------------------
-
 \section{Section Título} % Top level section
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor mi risus, quis tempor libero hendrerit at. Duis hendrerit placerat quam et semper. Nam ultricies metus vehicula arcu viverra, vel ullamcorper justo elementum. Pellentesque vel mi ac lectus cursus posuere et nec ex. Fusce quis mauris egestas lacus commodo venenatis. Ut at arcu lectus. Donec et urna nunc. Morbi eu nisl cursus sapien eleifend tincidunt quis quis est. Donec ut orci ex. Praesent ligula enim, ullamcorper non lorem a, ultrices volutpat dolor. Nullam at imperdiet urna. Pellentesque nec velit eget est pretium.\sidenote{This is a sidenote. This template features a large margin specifically so you can put notes, figures, tables and other things into it as additional material to the main content in the text block.}
+$body$\sidenote{This is a sidenote. This template features a large margin specifically so you can put notes, figures, tables and other things into it as additional material to the main content in the text block.}
 
 Donec in elit ac ante vestibulum rhoncus. Pellentesque ligula tortor, aliquet malesuada nulla tristique vitae. Aliquam mi sem, varius eu pellentesque et, tristique nec quam. Vestibulum pellentesque in dui et venenatis. Sed malesuada elit pellentesque sapien aliquet porta. In at facilisis diam. Duis id ante tellus.\sidenote[][2cm]{This sidenote has been pushed down the page manually with an optional parameter, otherwise it would be right under the one above.} % This first optional argument to a sidenote is the symbol to use (leave this empty for automatic numbering) and the second is the vertical offset (positive is down, negative is up)
 
@@ -173,35 +168,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-%----------------------------------------------------------------------------------------
-%	FONTS
-%----------------------------------------------------------------------------------------
-
-\section{Font Examples}
-
-\subsection{Font Sizes}
-
-{\tiny \textbackslash tiny} {\scriptsize \textbackslash scriptsize} {\footnotesize \textbackslash footnotesize} {\small \textbackslash small}\\
-{\normalsize \textbackslash normalsize}\nonumsidenote[-1cm]{The default font size for the document is 12pt, represented by \textbackslash normalsize. The standard LaTeX font size commands modify this to be smaller or larger as needed.}\\
-{\large \textbackslash large} {\Large \textbackslash Large} {\LARGE \textbackslash LARGE} {\huge \textbackslash huge} {\Huge \textbackslash Huge}
-
-\subsection{Font Families}
-
-\textsf{IBM Plex Sans Text}\nonumsidenote{The sans family is the default, as is standard in the business world. Use the serif family to accentuate text, such as for quotations. The mono family is best used where it's important that all characters are the same width, such as for numbers in a table or for code.}
-
-\textrm{IBM Plex Serif Text}
-
-\texttt{IBM Plex Mono Text}
-
-\subsection{Font Weights}
-
-\textel{ExtraLight} \textl{Light} Normal \textsb{SemiBold} \textbf{Bold}
-
-\subsection{Condensed Fonts}
-
-Plex Sans Normal\nonumsidenote{Condensed fonts can be useful if horizontal space is at a premium. You might want to use the condensed font in a wide table.}
-
-{\plexsanscondensed Plex Sans Condensed}
 
 %----------------------------------------------------------------------------------------
 %	QUOTATIONS
@@ -409,30 +375,6 @@ This is a email link: \href{mailto:example@example.com}{example@example.com}.
 
 This is a monospaced URL link: \url{https://duckduckgo.com}.
 
-%----------------------------------------------------------------------------------------
-%	EQUATIONS
-%----------------------------------------------------------------------------------------
-
-\section{Equation}
-
-\begin{equation}
-	\cos^3 \theta =\frac{1}{4}\cos\theta+\frac{3}{4}\cos 3\theta
-	\label{eq:example}
-\end{equation}
-
-This statement automatically references the equation above using its label: Equation \ref{eq:example}.
-
-%----------------------------------------------------------------------------------------
-%	INTERNATIONAL SUPPORT
-%----------------------------------------------------------------------------------------
-
-\section{International Support}
-
-àáâäãåèéêëìíîïòóôöõøùúûüÿýñçčšž\nonumsidenote{Plex is a very high quality typeface produced by IBM. It includes extensive international support and characters.}
-
-ÀÁÂÄÃÅÈÉÊËÌÍÎÏÒÓÔÖÕØÙÚÛÜŸÝÑ
-
-ßÇŒÆČŠŽ
 
 %----------------------------------------------------------------------------------------
 %	CODE
