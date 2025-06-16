@@ -26,9 +26,9 @@
 
 \addbibresource{include/sample.bib} % BibLaTeX bibliography file
 
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------------------
 %	REPORT INFORMATION
-%----------------------------------------------------------------------------------------
+%-----------------------------------------------------------------------
 \reporttitle{$title$} % The report title to appear on the title page and page headers, do not create manual new lines here as this will carry over to page headers
 
 \reportsubtitle{A professional layout featuring a large margin\\ and examples of typical business report content} % Report subtitle, include new lines if needed
@@ -37,21 +37,21 @@
 
 \reportdate{\today} % Report date, include new lines for additional information if needed
 
-\rightheadercontent{\includegraphics[width=3cm]{./images/creodocs_logo.pdf}} % The content in the right header, you may want to add your own company logo or use your company/department name or leave this command empty for no right header content
+\rightheadercontent{\includegraphics[width=3cm]{./include/creodocs_logo.pdf}} % The content in the right header, you may want to add your own company logo or use your company/department name or leave this command empty for no right header content
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 %	TITLE PAGE
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 \thispagestyle{empty} % Suppress headers and footers on this page
 
 \begin{fullwidth} % Use the whole page width
 	\vspace*{-0.075\textheight} % Pull logo into the top margin
 	
-	\hfill\includegraphics[width=5cm]{./images/creodocs_logo.pdf} % Company logo
+	\hfill\includegraphics[width=5cm]{./include/creodocs_logo.pdf} % Company logo
 
 	\vspace{0.15\textheight} % Vertical whitespace
 
@@ -243,14 +243,14 @@ This statement automatically references the figure below using its label: Figure
 %------------------------------------------------
 
 \begin{marginfigure} % Use the marginfigure environment for figures to be output to the margin
-	\includegraphics[width=\linewidth]{placeholder.jpg}
+	\includegraphics[width=\linewidth]{./include/placeholder.jpg}
 	\caption{Margin figure caption.}
 \end{marginfigure}
 
 %------------------------------------------------
 
 \begin{figure}[H] % [H] forces the figure to be output where it is defined in the code (it suppresses floating)
-	\includegraphics[width=\linewidth]{ARR.pdf}
+	\includegraphics[width=\linewidth]{./include/ARR.pdf}
 	\caption{Text block figure caption.}
 	\label{fig:example} % Label for referencing this figure in the text automatically
 \end{figure}
